@@ -1,0 +1,181 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins';
+}
+
+body {
+    background-color: rgb(31, 30, 30);
+    color: white;
+}
+
+.container {
+    /* border: 16px solid rgb(31, 30, 30); */
+    box-shadow: 3px 4px 8px rgb(24, 21, 21), inset 4px 3px 9px rgb(50, 47, 47);
+    height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    background-image: url('banras.jpg');
+    flex-direction: row;
+    /* overflow: scroll; */
+    align-items: center;
+    background-size: cover;
+    border-bottom: none;
+}
+
+p {
+    background-color: rgba(128, 128, 128, 0.444);
+    height: 500px;
+    width: 400px;
+    padding: 20px;
+    margin-right: 4px;
+    border-radius: 15px;
+    border-top: 1px white solid;
+    border-left: 1px white solid;
+    box-shadow: 5px 5px 10px black;
+    backdrop-filter: blur(10px);
+    transition: all 0.5s ease-in-out;
+}
+
+p:hover {
+    transform: translatey(25px);
+    font-size: 100px;
+    transform: scale(1.7, 1.7);
+    z-index: 11;
+
+
+}
+
+p span {
+    font-size: 200px;
+    font-family: 'poppins';
+    font-weight: 1000;
+    color: rgba(47, 79, 79, 0.756);
+    transition: all 0.3s;
+}
+
+p a {
+
+    color: white;
+    text-decoration: none;
+    font-size: 40px;
+    text-align: left;
+    font-weight: 1000;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 10px;
+    border-radius: 30px;
+    transition: all 0.5s;
+}
+
+.second {
+    background-image: url('banras.jpg');
+    background-size: cover;
+    border-top: none;
+    box-shadow: 3px 4px 8px rgb(24, 21, 21), inset 4px 3px 9px rgb(50, 47, 47);
+    height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+
+    flex-direction: row;
+    /* overflow: scroll; */
+    align-items: center;
+    background-size: cover;
+
+}
+
+.third {
+    background-image: url('banras.jpg');
+    background-size: cover;
+    border-top: none;
+    box-shadow: 3px 4px 8px rgb(24, 21, 21), inset 4px 3px 9px rgb(50, 47, 47);
+    height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+
+    flex-direction: row;
+    /* overflow: scroll; */
+    align-items: center;
+    background-size: cover;
+
+}
+
+p.delhi:hover {
+    background-image: url('https://i.pinimg.com/564x/5f/b1/11/5fb1113857a8564016b642307cc49e70.jpg');
+    background-size: cover;
+    opacity: 1;
+
+}
+
+p.jaipur:hover {
+    background-image: url('https://i.pinimg.com/564x/14/fc/4b/14fc4b4808b0a8bddd1b5a67ce29db54.jpg');
+    background-size: cover;
+    opacity: 1;
+}
+
+p.banaras:hover {
+    background-image: url('https://i.pinimg.com/564x/aa/9d/53/aa9d53b03523cef69142b901ccf0bde7.jpg');
+    background-size: cover;
+    opacity: 1;
+}
+
+p.ahmedabad:hover {
+    background-image: url('https://i.pinimg.com/564x/0f/fd/c4/0ffdc4f2f78967c54cabb99bac4c6d4b.jpg');
+    background-size: cover;
+    opacity: 1;
+}
+
+p.mumbai:hover {
+    background-image: url('https://i.pinimg.com/564x/2e/13/2e/2e132e59000aa4d018ec74e2dd06266c.jpg');
+    background-size: cover;
+    opacity: 1;
+}
+
+p.agra:hover {
+    background-image: url('https://i.pinimg.com/564x/e9/a3/92/e9a392d34a0674546a83a5c52a791925.jpg');
+    background-size: cover;
+    opacity: 1;
+}
+
+p.jaipur:hover {
+    background-image: url('https://i.pinimg.com/564x/14/fc/4b/14fc4b4808b0a8bddd1b5a67ce29db54.jpg');
+    background-size: cover;
+    opacity: 1;
+}
+
+p.kedarnath:hover {
+    background-image: url('https://i.pinimg.com/564x/92/fe/79/92fe79702a3320b59a2abbe933b1490c.jpg');
+    background-size: cover;
+    opacity: 1;
+}
+
+p.coimbatore:hover {
+    background-image: url('https://i.pinimg.com/564x/f8/59/2d/f8592d8fc04d948c63c23ea84f4a4735.jpg');
+    background-size: cover;
+    opacity: 1;
+}
+
+p.somnath:hover {
+    background-image: url('https://i.pinimg.com/564x/77/74/f9/7774f9646e1b520a68de2dcd8f83bde2.jpg');
+    background-size: cover;
+    opacity: 1;
+}
+
+p.udaipur:hover {
+    background-image: url('https://i.pinimg.com/564x/49/24/8b/49248b7db01b6a857fbb1326ccd2c598.jpg');
+    background-size: cover;
+    opacity: 1;
+}
+
+p.gwalior:hover {
+    background-image: url('https://i.pinimg.com/564x/3b/a0/d0/3ba0d07bf4975274454c5f4347a39ac3.jpg');
+    background-size: cover;
+    opacity: 1;
+}
+
+p.amritsar:hover {
+    background-image: url('https://i.pinimg.com/564x/da/8a/8f/da8a8f8c24d2a29e50168ffff8408bc5.jpg');
+    background-size: cover;
+    opacity: 1;
+}
